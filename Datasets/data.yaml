@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+kpt_shape: [3, 3]
+flip_idx: [0, 1, 2]
+
+nc: 2
+names: ['Dog', 'Handle']
+
+roboflow:
+  workspace: guide-dog
+  project: guide-dog-ver2
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/guide-dog/guide-dog-ver2/dataset/4
